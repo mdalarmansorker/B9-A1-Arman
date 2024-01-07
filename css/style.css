@@ -10,12 +10,24 @@ header{
 header img{
     width: 100%;
 }
+.gradient{
+    margin-top: 50px;
+    margin-left: 140px;
+    margin-right: 140px;
+    position: center;
+    height: 100%;
+    width: 100%;
+    border-radius: 16px;
+    background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
+    z-index: 1;
+}
+
 .title-header{
     color: #FFF;
     text-align: center;
     font-size: 32px;
     font-weight: 400;
-    margin-top: -383px;
+    margin-top: -35%;
 }
 .header-title{
     color: #FFF;
@@ -23,4 +35,53 @@ header img{
     font-size: 72px;
     font-weight: 900;
     margin: 0 250px;
+}
+
+/* main section */
+main{
+    margin-top: 120px;
+}
+.off-section{
+    margin-top: 200px;
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 88px;
+    font-weight: 700;
+}
+.off-section2{
+    margin-top: 48px;
+    margin-bottom: 16px;
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+}
+.off-section3{
+    color: #070211;
+    text-align: center;
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 48px;
+}
+.off-section-image{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 50%;
+    margin-bottom: 120px;
+}
+/* party section */
+.party-section{
+    margin-top: 50px;
+    margin-left: 140px;
+    margin-right: 140px;
+    position: center;
+    margin-bottom: 120px;
+    fill: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
+}
+.party-image{
+    width: 100%;
 }
