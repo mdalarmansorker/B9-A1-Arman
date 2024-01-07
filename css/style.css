@@ -1,5 +1,6 @@
 body{
     font-family: 'Merriweather', serif;
+    background: #FFF;
 }
 header{
     margin-top: 50px;
@@ -84,4 +85,50 @@ main{
 }
 .party-image{
     width: 100%;
+}
+.gradient2{
+    fill: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
+}
+.party-content-title{
+    color: #FFF;
+    font-size: 64px;
+    font-weight: 900;
+    
+}
+.party-2024{
+    width: 200px;
+}
+.party-container{
+    margin-left: 120px;
+    margin-right: 120px;
+    margin-top: -35%;
+    display: flex;
+    position: center;
+    justify-content: space-between;
+}
+.party-content{
+    margin-top: 24px;
+    color: rgba(255, 255, 255, 0.80);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    margin-right: 150px;
+}
+.btn-normal{
+    margin-top: 30px;
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    background-color: transparent;
+    border-style: none;
+}
+.vanue{
+    margin-top: 100px;
+    margin-left: 140px;
+    margin-right: 140px;
+    position: absolute;
+    margin-bottom: 120px;
 }
