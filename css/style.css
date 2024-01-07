@@ -1,0 +1,26 @@
+body{
+    font-family: 'Merriweather', serif;
+}
+header{
+    margin-top: 50px;
+    margin-left: 140px;
+    margin-right: 140px;
+    position: center;
+}
+header img{
+    width: 100%;
+}
+.title-header{
+    color: #FFF;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 400;
+    margin-top: -383px;
+}
+.header-title{
+    color: #FFF;
+    text-align: center;
+    font-size: 72px;
+    font-weight: 900;
+    margin: 0 250px;
+}
