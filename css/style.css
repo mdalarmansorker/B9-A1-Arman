@@ -12,6 +12,7 @@ header{
     margin-left: 140px;
     margin-right: 140px;
     position: center;
+    
 }
 header img{
     width: 100%;
@@ -272,10 +273,9 @@ main{
 }
 
 .off50-col1{
-
     display: flex;
     margin-top: 64px;
-    margin-left: 56%;
+    margin-left: 55.3%;
     margin-right: 0px;
 }
 .circle50{
