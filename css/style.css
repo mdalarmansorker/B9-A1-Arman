@@ -333,8 +333,14 @@ main{
 }
 .portfolio-image-row img{
     width: 31.9%;
+    object-fit: cover;
     /* width: auto; */
 }
+.portfolio-image-row img:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s ease-in-out;
+}
+
 /* subscribe section */
 .subscribe{
     position: center;
